@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_uart_axifull_0_3_synth_1" LaunchDir="C:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/Microblaze5/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

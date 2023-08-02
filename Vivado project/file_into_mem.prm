@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX1
+Size               4M
+Start Address      0x00000000
+End Address        0x003FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x000E0000    0x000E63FE    Jul 26 12:31:11 2023    C:/Users/mafassi/Desktop/csv format-20230601T073237Z-001/new/csvtobin/csvtobin/output.bin

@@ -1,0 +1,1817 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 16:44:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 16:35:24 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 16:25:45 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 15:50:19 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 15:42:14 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 15:15:36 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 14:45:27 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 14:34:35 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 21) to (Rev. 23)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 14:16:33 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 21)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 14:11:34 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 14:02:21 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 12:25:39 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 11:50:45 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 11:41:56 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 11:27:08 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Aug  2 11:05:12 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 17:17:32 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 16:52:59 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 16:22:59 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 16:03:11 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 15:27:09 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 14:50:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 8) to (Rev. 9)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_uart_axifull_0_3'. These changes may impact your design.
+
+
+-Upgrade has added port 'baudrate_out'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Aug  1 12:22:46 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 17:14:47 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 16:58:02 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_uart_axifull_0_3'. These changes may impact your design.
+
+
+-Upgraded port 's01_axi_araddr' width 17 differs from original width 10
+
+-Upgraded port 's01_axi_awaddr' width 17 differs from original width 10
+
+
+3. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_S01_AXI_ADDR_WIDTH' from '17' to '10' has been ignored for IP 'design_1_uart_axifull_0_3'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv Laudren.local:user:uart_axifull:1.0 -user_name design_1_uart_axifull_0_3
+set_property -dict "\
+  CONFIG.C_S00_AXI_ADDR_WIDTH {4} \
+  CONFIG.C_S00_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_S00_AXI_DATA_WIDTH {32} \
+  CONFIG.C_S00_AXI_HIGHADDR {0x00000000} \
+  CONFIG.C_S01_AXI_ADDR_WIDTH {10} \
+  CONFIG.C_S01_AXI_ARUSER_WIDTH {0} \
+  CONFIG.C_S01_AXI_AWUSER_WIDTH {0} \
+  CONFIG.C_S01_AXI_BASEADDR {0xFFFFFFFF} \
+  CONFIG.C_S01_AXI_BUSER_WIDTH {0} \
+  CONFIG.C_S01_AXI_DATA_WIDTH {32} \
+  CONFIG.C_S01_AXI_HIGHADDR {0x00000000} \
+  CONFIG.C_S01_AXI_ID_WIDTH {0} \
+  CONFIG.C_S01_AXI_RUSER_WIDTH {0} \
+  CONFIG.C_S01_AXI_WUSER_WIDTH {0} \
+  CONFIG.Component_Name {design_1_uart_axifull_0_3} \
+  CONFIG.S00_AXI.ADDR_WIDTH {4} \
+  CONFIG.S00_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S00_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S00_AXI.BUSER_WIDTH {0} \
+  CONFIG.S00_AXI.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.S00_AXI.DATA_WIDTH {32} \
+  CONFIG.S00_AXI.FREQ_HZ {96000000} \
+  CONFIG.S00_AXI.HAS_BRESP {1} \
+  CONFIG.S00_AXI.HAS_BURST {0} \
+  CONFIG.S00_AXI.HAS_CACHE {0} \
+  CONFIG.S00_AXI.HAS_LOCK {0} \
+  CONFIG.S00_AXI.HAS_PROT {1} \
+  CONFIG.S00_AXI.HAS_QOS {0} \
+  CONFIG.S00_AXI.HAS_REGION {0} \
+  CONFIG.S00_AXI.HAS_RRESP {1} \
+  CONFIG.S00_AXI.HAS_WSTRB {1} \
+  CONFIG.S00_AXI.ID_WIDTH {0} \
+  CONFIG.S00_AXI.INSERT_VIP {0} \
+  CONFIG.S00_AXI.MAX_BURST_LENGTH {1} \
+  CONFIG.S00_AXI.NUM_READ_OUTSTANDING {2} \
+  CONFIG.S00_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S00_AXI.NUM_WRITE_OUTSTANDING {2} \
+  CONFIG.S00_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S00_AXI.PHASE {0.0} \
+  CONFIG.S00_AXI.PROTOCOL {AXI4LITE} \
+  CONFIG.S00_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S00_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S00_AXI.RUSER_WIDTH {0} \
+  CONFIG.S00_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S00_AXI.WIZ_DATA_WIDTH {32} \
+  CONFIG.S00_AXI.WIZ_NUM_REG {4} \
+  CONFIG.S00_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S00_AXI.WUSER_WIDTH {0} \
+  CONFIG.S00_AXI_CLK.ASSOCIATED_BUSIF {S00_AXI} \
+  CONFIG.S00_AXI_CLK.ASSOCIATED_RESET {s00_axi_aresetn} \
+  CONFIG.S00_AXI_CLK.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.S00_AXI_CLK.FREQ_HZ {96000000} \
+  CONFIG.S00_AXI_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.S00_AXI_CLK.INSERT_VIP {0} \
+  CONFIG.S00_AXI_CLK.PHASE {0.0} \
+  CONFIG.S00_AXI_RST.INSERT_VIP {0} \
+  CONFIG.S00_AXI_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.S01_AXI.ADDR_WIDTH {10} \
+  CONFIG.S01_AXI.ARUSER_WIDTH {0} \
+  CONFIG.S01_AXI.AWUSER_WIDTH {0} \
+  CONFIG.S01_AXI.BUSER_WIDTH {0} \
+  CONFIG.S01_AXI.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.S01_AXI.DATA_WIDTH {32} \
+  CONFIG.S01_AXI.FREQ_HZ {96000000} \
+  CONFIG.S01_AXI.HAS_BRESP {1} \
+  CONFIG.S01_AXI.HAS_BURST {1} \
+  CONFIG.S01_AXI.HAS_CACHE {1} \
+  CONFIG.S01_AXI.HAS_LOCK {1} \
+  CONFIG.S01_AXI.HAS_PROT {1} \
+  CONFIG.S01_AXI.HAS_QOS {1} \
+  CONFIG.S01_AXI.HAS_REGION {1} \
+  CONFIG.S01_AXI.HAS_RRESP {1} \
+  CONFIG.S01_AXI.HAS_WSTRB {1} \
+  CONFIG.S01_AXI.ID_WIDTH {0} \
+  CONFIG.S01_AXI.INSERT_VIP {0} \
+  CONFIG.S01_AXI.MAX_BURST_LENGTH {1} \
+  CONFIG.S01_AXI.NUM_READ_OUTSTANDING {1} \
+  CONFIG.S01_AXI.NUM_READ_THREADS {1} \
+  CONFIG.S01_AXI.NUM_WRITE_OUTSTANDING {1} \
+  CONFIG.S01_AXI.NUM_WRITE_THREADS {1} \
+  CONFIG.S01_AXI.PHASE {0.0} \
+  CONFIG.S01_AXI.PROTOCOL {AXI4} \
+  CONFIG.S01_AXI.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.S01_AXI.RUSER_BITS_PER_BYTE {0} \
+  CONFIG.S01_AXI.RUSER_WIDTH {0} \
+  CONFIG.S01_AXI.SUPPORTS_NARROW_BURST {0} \
+  CONFIG.S01_AXI.WIZ_DATA_WIDTH {32} \
+  CONFIG.S01_AXI.WIZ_MEMORY_SIZE {1024} \
+  CONFIG.S01_AXI.WUSER_BITS_PER_BYTE {0} \
+  CONFIG.S01_AXI.WUSER_WIDTH {0} \
+  CONFIG.S01_AXI_CLK.ASSOCIATED_BUSIF {S01_AXI} \
+  CONFIG.S01_AXI_CLK.ASSOCIATED_RESET {s01_axi_aresetn} \
+  CONFIG.S01_AXI_CLK.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.S01_AXI_CLK.FREQ_HZ {96000000} \
+  CONFIG.S01_AXI_CLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.S01_AXI_CLK.INSERT_VIP {0} \
+  CONFIG.S01_AXI_CLK.PHASE {0.0} \
+  CONFIG.S01_AXI_RST.INSERT_VIP {0} \
+  CONFIG.S01_AXI_RST.POLARITY {ACTIVE_LOW} \
+  CONFIG.c_baudrate {115200} \
+  CONFIG.c_clkfreq {100000000} \
+  CONFIG.c_stopbit {2} " [get_ips design_1_uart_axifull_0_3]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 15:11:29 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 14:56:52 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 12:20:42 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 11:11:45 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 11:06:02 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 10:36:34 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Mon Jul 31 10:17:12 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_rst_clk_wiz_1_100M_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of design_1_rst_clk_wiz_1_100M_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 13)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'C_EXT_RESET_HIGH' from '1' to '0' has been ignored for IP 'design_1_rst_clk_wiz_1_100M_0'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 -user_name design_1_rst_clk_wiz_1_100M_0
+set_property -dict "\
+  CONFIG.C_AUX_RESET_HIGH {0} \
+  CONFIG.C_AUX_RST_WIDTH {4} \
+  CONFIG.C_EXT_RESET_HIGH {0} \
+  CONFIG.C_EXT_RST_WIDTH {4} \
+  CONFIG.C_NUM_BUS_RST {1} \
+  CONFIG.C_NUM_INTERCONNECT_ARESETN {1} \
+  CONFIG.C_NUM_PERP_ARESETN {1} \
+  CONFIG.C_NUM_PERP_RST {1} \
+  CONFIG.Component_Name {design_1_rst_clk_wiz_1_100M_0} \
+  CONFIG.RESET_BOARD_INTERFACE {reset} \
+  CONFIG.USE_BOARD_FLOW {true} \
+  CONFIG.aux_reset.INSERT_VIP {0} \
+  CONFIG.aux_reset.POLARITY {ACTIVE_LOW} \
+  CONFIG.bus_struct_reset.INSERT_VIP {0} \
+  CONFIG.bus_struct_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.bus_struct_reset.TYPE {INTERCONNECT} \
+  CONFIG.clock.ASSOCIATED_BUSIF {} \
+  CONFIG.clock.ASSOCIATED_RESET {mb_reset:bus_struct_reset:interconnect_aresetn:peripheral_aresetn:peripheral_reset} \
+  CONFIG.clock.CLK_DOMAIN {/clk_wiz_1_clk_out1} \
+  CONFIG.clock.FREQ_HZ {95909090} \
+  CONFIG.clock.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.clock.INSERT_VIP {0} \
+  CONFIG.clock.PHASE {0.0} \
+  CONFIG.dbg_reset.INSERT_VIP {0} \
+  CONFIG.dbg_reset.POLARITY {ACTIVE_HIGH} \
+  CONFIG.ext_reset.BOARD.ASSOCIATED_PARAM {RESET_BOARD_INTERFACE} \
+  CONFIG.ext_reset.INSERT_VIP {0} \
+  CONFIG.ext_reset.POLARITY {ACTIVE_LOW} \
+  CONFIG.interconnect_low_rst.INSERT_VIP {0} \
+  CONFIG.interconnect_low_rst.POLARITY {ACTIVE_LOW} \
+  CONFIG.interconnect_low_rst.TYPE {INTERCONNECT} \
+  CONFIG.mb_rst.INSERT_VIP {0} \
+  CONFIG.mb_rst.POLARITY {ACTIVE_HIGH} \
+  CONFIG.mb_rst.TYPE {PROCESSOR} \
+  CONFIG.peripheral_high_rst.INSERT_VIP {0} \
+  CONFIG.peripheral_high_rst.POLARITY {ACTIVE_HIGH} \
+  CONFIG.peripheral_high_rst.TYPE {PERIPHERAL} \
+  CONFIG.peripheral_low_rst.INSERT_VIP {0} \
+  CONFIG.peripheral_low_rst.POLARITY {ACTIVE_LOW} \
+  CONFIG.peripheral_low_rst.TYPE {PERIPHERAL} " [get_ips design_1_rst_clk_wiz_1_100M_0]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_xlconcat_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_xlconcat_0 (xilinx.com:ip:xlconcat:2.1 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_axi_periph_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_axi_periph_1 (xilinx.com:ip:axi_interconnect:2.1 (Rev. 23)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_axi_intc_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_axi_intc_0 (xilinx.com:ip:axi_intc:4.1 (Rev. 15)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter C_IRQ_CONNECTION with default value 0 : a parameter called C_IRQ_CONNECTION already exists in axi_intc_v4_1
+Set parameter C_IVAR_RESET_VALUE to value 0x0000000000000010 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_microblaze_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_microblaze_0_0 (xilinx.com:ip:microblaze:11.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mdm_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_mdm_1_0 (xilinx.com:ip:mdm:3.2 (Rev. 19)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_M_AXIS_ID_WIDTH to value 7 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_lmb_bram_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of design_1_lmb_bram_0 (xilinx.com:ip:blk_mem_gen:8.4 (Rev. 4)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+The normal upgrade process failed due to validation failures in the given configuration. Attempting partial upgrade to set as many user parameters as possible. Please check the parameters whose values were not applied.
+
+Unable to set the value '65536' on parameter 'Write Depth A' due to the following failure - 
+Validation failed for parameter 'Disable Collision Warnings(Disable_Collision_Warnings)' with value 'false' for BD Cell 'design_1_lmb_bram_0'. User configuration exceeds BRAM count in the selected device
+. Restoring to an old valid value of '8192'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 -user_name design_1_lmb_bram_0
+set_property -dict "\
+  CONFIG.AXI_ID_Width {4} \
+  CONFIG.AXI_Slave_Type {Memory_Slave} \
+  CONFIG.AXI_Type {AXI4_Full} \
+  CONFIG.Additional_Inputs_for_Power_Estimation {false} \
+  CONFIG.Algorithm {Minimum_Area} \
+  CONFIG.Assume_Synchronous_Clk {false} \
+  CONFIG.BRAM_PORTA.MASTER_TYPE {BRAM_CTRL} \
+  CONFIG.BRAM_PORTA.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTA.MEM_SIZE {262144} \
+  CONFIG.BRAM_PORTA.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTA.READ_LATENCY {1} \
+  CONFIG.BRAM_PORTA.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.BRAM_PORTB.MASTER_TYPE {BRAM_CTRL} \
+  CONFIG.BRAM_PORTB.MEM_ECC {NONE} \
+  CONFIG.BRAM_PORTB.MEM_SIZE {262144} \
+  CONFIG.BRAM_PORTB.MEM_WIDTH {32} \
+  CONFIG.BRAM_PORTB.READ_LATENCY {1} \
+  CONFIG.BRAM_PORTB.READ_WRITE_MODE {READ_WRITE} \
+  CONFIG.Byte_Size {8} \
+  CONFIG.CLK.ACLK.ASSOCIATED_BUSIF {AXI_SLAVE_S_AXI:AXILite_SLAVE_S_AXI} \
+  CONFIG.CLK.ACLK.ASSOCIATED_RESET {s_aresetn} \
+  CONFIG.CLK.ACLK.CLK_DOMAIN {} \
+  CONFIG.CLK.ACLK.FREQ_HZ {100000000} \
+  CONFIG.CLK.ACLK.FREQ_TOLERANCE_HZ {0} \
+  CONFIG.CLK.ACLK.INSERT_VIP {0} \
+  CONFIG.CLK.ACLK.PHASE {0.000} \
+  CONFIG.CTRL_ECC_ALGO {NONE} \
+  CONFIG.Coe_File {no_coe_file_loaded} \
+  CONFIG.Collision_Warnings {ALL} \
+  CONFIG.Component_Name {design_1_lmb_bram_0} \
+  CONFIG.Disable_Collision_Warnings {false} \
+  CONFIG.Disable_Out_of_Range_Warnings {false} \
+  CONFIG.ECC {false} \
+  CONFIG.EN_DEEPSLEEP_PIN {false} \
+  CONFIG.EN_ECC_PIPE {false} \
+  CONFIG.EN_SAFETY_CKT {true} \
+  CONFIG.EN_SHUTDOWN_PIN {false} \
+  CONFIG.EN_SLEEP_PIN {false} \
+  CONFIG.Enable_32bit_Address {true} \
+  CONFIG.Enable_A {Use_ENA_Pin} \
+  CONFIG.Enable_B {Use_ENB_Pin} \
+  CONFIG.Error_Injection_Type {Single_Bit_Error_Injection} \
+  CONFIG.Fill_Remaining_Memory_Locations {false} \
+  CONFIG.Interface_Type {Native} \
+  CONFIG.Load_Init_File {false} \
+  CONFIG.MEM_FILE {design_1_lmb_bram_0.mem} \
+  CONFIG.Memory_Type {True_Dual_Port_RAM} \
+  CONFIG.Operating_Mode_A {WRITE_FIRST} \
+  CONFIG.Operating_Mode_B {WRITE_FIRST} \
+  CONFIG.Output_Reset_Value_A {0} \
+  CONFIG.Output_Reset_Value_B {0} \
+  CONFIG.PRIM_type_to_Implement {BRAM} \
+  CONFIG.Pipeline_Stages {0} \
+  CONFIG.Port_A_Clock {100} \
+  CONFIG.Port_A_Enable_Rate {100} \
+  CONFIG.Port_A_Write_Rate {50} \
+  CONFIG.Port_B_Clock {100} \
+  CONFIG.Port_B_Enable_Rate {100} \
+  CONFIG.Port_B_Write_Rate {50} \
+  CONFIG.Primitive {8kx2} \
+  CONFIG.RD_ADDR_CHNG_A {false} \
+  CONFIG.RD_ADDR_CHNG_B {false} \
+  CONFIG.READ_LATENCY_A {1} \
+  CONFIG.READ_LATENCY_B {1} \
+  CONFIG.RST.ARESETN.INSERT_VIP {0} \
+  CONFIG.RST.ARESETN.POLARITY {ACTIVE_LOW} \
+  CONFIG.Read_Width_A {32} \
+  CONFIG.Read_Width_B {32} \
+  CONFIG.Register_PortA_Output_of_Memory_Core {false} \
+  CONFIG.Register_PortA_Output_of_Memory_Primitives {false} \
+  CONFIG.Register_PortB_Output_of_Memory_Core {false} \
+  CONFIG.Register_PortB_Output_of_Memory_Primitives {false} \
+  CONFIG.Remaining_Memory_Locations {0} \
+  CONFIG.Reset_Memory_Latch_A {false} \
+  CONFIG.Reset_Memory_Latch_B {false} \
+  CONFIG.Reset_Priority_A {CE} \
+  CONFIG.Reset_Priority_B {CE} \
+  CONFIG.Reset_Type {SYNC} \
+  CONFIG.Use_AXI_ID {false} \
+  CONFIG.Use_Byte_Write_Enable {true} \
+  CONFIG.Use_Error_Injection_Pins {false} \
+  CONFIG.Use_REGCEA_Pin {false} \
+  CONFIG.Use_REGCEB_Pin {false} \
+  CONFIG.Use_RSTA_Pin {true} \
+  CONFIG.Use_RSTB_Pin {true} \
+  CONFIG.Write_Depth_A {65536} \
+  CONFIG.Write_Width_A {32} \
+  CONFIG.Write_Width_B {32} \
+  CONFIG.ecctype {No_ECC} \
+  CONFIG.register_porta_input_of_softecc {false} \
+  CONFIG.register_portb_output_of_softecc {false} \
+  CONFIG.softecc {false} \
+  CONFIG.use_bram_block {BRAM_Controller} " [get_ips design_1_lmb_bram_0]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_ilmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_ilmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 19)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_v10_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_v10_0 (xilinx.com:ip:lmb_v10:3.0 (Rev. 11)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_dlmb_bram_if_cntlr_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_dlmb_bram_if_cntlr_0 (xilinx.com:ip:lmb_bram_if_cntlr:4.0 (Rev. 19)) to Vivado generation flows.
+
+2. Upgrade messages
+-------------------
+
+Set parameter C_MASK1 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK2 to value 0x0000000000800000 (source 'default')
+Set parameter C_MASK3 to value 0x0000000000800000 (source 'default')
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_clk_wiz_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of design_1_clk_wiz_1_0 (xilinx.com:ip:clk_wiz:6.0 (Rev. 6)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+An attempt to modify the value of disabled parameter 'PRIM_IN_FREQ' from '12.000' to '100.000' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'CLKOUT2_REQUESTED_OUT_FREQ' from '100.000' to '50' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'CLKOUT3_REQUESTED_OUT_FREQ' from '100.000' to '100' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'CLKOUT4_REQUESTED_OUT_FREQ' from '100.000' to '125' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'CLKOUT5_REQUESTED_OUT_FREQ' from '100.000' to '50' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_DIVCLK_DIVIDE' from '1' to '5' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKFBOUT_MULT_F' from '63.875' to '52.750' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKIN1_PERIOD' from '83.333' to '10.000' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKIN2_PERIOD' from '10.0' to '10.000' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+An attempt to modify the value of disabled parameter 'MMCM_CLKOUT0_DIVIDE_F' from '8.000' to '11.000' has been ignored for IP 'design_1_clk_wiz_1_0'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:clk_wiz:6.0 -user_name design_1_clk_wiz_1_0
+set_property -dict "\
+  CONFIG.AUTO_PRIMITIVE {MMCM} \
+  CONFIG.AXI_DRP {false} \
+  CONFIG.CALC_DONE {empty} \
+  CONFIG.CDDCDONE_PORT {cddcdone} \
+  CONFIG.CDDCREQ_PORT {cddcreq} \
+  CONFIG.CLKFB_IN_N_PORT {clkfb_in_n} \
+  CONFIG.CLKFB_IN_PORT {clkfb_in} \
+  CONFIG.CLKFB_IN_P_PORT {clkfb_in_p} \
+  CONFIG.CLKFB_IN_SIGNALING {SINGLE} \
+  CONFIG.CLKFB_OUT_N_PORT {clkfb_out_n} \
+  CONFIG.CLKFB_OUT_PORT {clkfb_out} \
+  CONFIG.CLKFB_OUT_P_PORT {clkfb_out_p} \
+  CONFIG.CLKFB_STOPPED_PORT {clkfb_stopped} \
+  CONFIG.CLKIN1_JITTER_PS {100.0} \
+  CONFIG.CLKIN1_UI_JITTER {0.010} \
+  CONFIG.CLKIN2_JITTER_PS {100.0} \
+  CONFIG.CLKIN2_UI_JITTER {0.010} \
+  CONFIG.CLKOUT1_DRIVES {BUFG} \
+  CONFIG.CLKOUT1_JITTER {229.263} \
+  CONFIG.CLKOUT1_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT1_PHASE_ERROR {294.250} \
+  CONFIG.CLKOUT1_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {95.90909} \
+  CONFIG.CLKOUT1_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT1_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT1_USED {true} \
+  CONFIG.CLKOUT2_DRIVES {BUFG} \
+  CONFIG.CLKOUT2_JITTER {151.636} \
+  CONFIG.CLKOUT2_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT2_PHASE_ERROR {98.575} \
+  CONFIG.CLKOUT2_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {50} \
+  CONFIG.CLKOUT2_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT2_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT2_USED {false} \
+  CONFIG.CLKOUT3_DRIVES {BUFG} \
+  CONFIG.CLKOUT3_JITTER {137.681} \
+  CONFIG.CLKOUT3_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT3_PHASE_ERROR {105.461} \
+  CONFIG.CLKOUT3_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {100} \
+  CONFIG.CLKOUT3_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT3_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT3_USED {false} \
+  CONFIG.CLKOUT4_DRIVES {BUFG} \
+  CONFIG.CLKOUT4_JITTER {125.247} \
+  CONFIG.CLKOUT4_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT4_PHASE_ERROR {98.575} \
+  CONFIG.CLKOUT4_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT4_REQUESTED_OUT_FREQ {125} \
+  CONFIG.CLKOUT4_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT4_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT4_USED {false} \
+  CONFIG.CLKOUT5_DRIVES {BUFG} \
+  CONFIG.CLKOUT5_JITTER {151.636} \
+  CONFIG.CLKOUT5_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT5_PHASE_ERROR {98.575} \
+  CONFIG.CLKOUT5_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT5_REQUESTED_OUT_FREQ {50} \
+  CONFIG.CLKOUT5_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT5_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT5_USED {false} \
+  CONFIG.CLKOUT6_DRIVES {BUFG} \
+  CONFIG.CLKOUT6_JITTER {0.0} \
+  CONFIG.CLKOUT6_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT6_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT6_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT6_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT6_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT6_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT6_USED {false} \
+  CONFIG.CLKOUT7_DRIVES {BUFG} \
+  CONFIG.CLKOUT7_JITTER {0.0} \
+  CONFIG.CLKOUT7_MATCHED_ROUTING {false} \
+  CONFIG.CLKOUT7_PHASE_ERROR {0.0} \
+  CONFIG.CLKOUT7_REQUESTED_DUTY_CYCLE {50.000} \
+  CONFIG.CLKOUT7_REQUESTED_OUT_FREQ {100.000} \
+  CONFIG.CLKOUT7_REQUESTED_PHASE {0.000} \
+  CONFIG.CLKOUT7_SEQUENCE_NUMBER {1} \
+  CONFIG.CLKOUT7_USED {false} \
+  CONFIG.CLKOUTPHY_REQUESTED_FREQ {600.000} \
+  CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} \
+  CONFIG.CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.CLK_IN_SEL_PORT {clk_in_sel} \
+  CONFIG.CLK_OUT1_PORT {clk_out1} \
+  CONFIG.CLK_OUT1_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT2_PORT {clk_out2} \
+  CONFIG.CLK_OUT2_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT3_PORT {clk_out3} \
+  CONFIG.CLK_OUT3_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT4_PORT {clk_out4} \
+  CONFIG.CLK_OUT4_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT5_PORT {clk_out5} \
+  CONFIG.CLK_OUT5_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT6_PORT {clk_out6} \
+  CONFIG.CLK_OUT6_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_OUT7_PORT {clk_out7} \
+  CONFIG.CLK_OUT7_USE_FINE_PS_GUI {false} \
+  CONFIG.CLK_VALID_PORT {CLK_VALID} \
+  CONFIG.CLOCK_MGR_TYPE {auto} \
+  CONFIG.Component_Name {design_1_clk_wiz_1_0} \
+  CONFIG.DADDR_PORT {daddr} \
+  CONFIG.DCLK_PORT {dclk} \
+  CONFIG.DEN_PORT {den} \
+  CONFIG.DIFF_CLK_IN1_BOARD_INTERFACE {Custom} \
+  CONFIG.DIFF_CLK_IN2_BOARD_INTERFACE {Custom} \
+  CONFIG.DIN_PORT {din} \
+  CONFIG.DOUT_PORT {dout} \
+  CONFIG.DRDY_PORT {drdy} \
+  CONFIG.DWE_PORT {dwe} \
+  CONFIG.ENABLE_CDDC {false} \
+  CONFIG.ENABLE_CLKOUTPHY {false} \
+  CONFIG.ENABLE_CLOCK_MONITOR {false} \
+  CONFIG.ENABLE_USER_CLOCK0 {false} \
+  CONFIG.ENABLE_USER_CLOCK1 {false} \
+  CONFIG.ENABLE_USER_CLOCK2 {false} \
+  CONFIG.ENABLE_USER_CLOCK3 {false} \
+  CONFIG.Enable_PLL0 {false} \
+  CONFIG.Enable_PLL1 {false} \
+  CONFIG.FEEDBACK_SOURCE {FDBK_AUTO} \
+  CONFIG.INPUT_CLK_STOPPED_PORT {input_clk_stopped} \
+  CONFIG.INPUT_MODE {frequency} \
+  CONFIG.INTERFACE_SELECTION {Enable_AXI} \
+  CONFIG.IN_FREQ_UNITS {Units_MHz} \
+  CONFIG.IN_JITTER_UNITS {Units_UI} \
+  CONFIG.JITTER_OPTIONS {UI} \
+  CONFIG.JITTER_SEL {No_Jitter} \
+  CONFIG.LOCKED_PORT {locked} \
+  CONFIG.MMCM_BANDWIDTH {OPTIMIZED} \
+  CONFIG.MMCM_CLKFBOUT_MULT_F {52.750} \
+  CONFIG.MMCM_CLKFBOUT_PHASE {0.000} \
+  CONFIG.MMCM_CLKFBOUT_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKIN1_PERIOD {10.000} \
+  CONFIG.MMCM_CLKIN2_PERIOD {10.000} \
+  CONFIG.MMCM_CLKOUT0_DIVIDE_F {11.000} \
+  CONFIG.MMCM_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT0_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT0_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT1_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT1_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT1_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT2_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT2_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT2_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT3_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT3_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT3_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT4_CASCADE {false} \
+  CONFIG.MMCM_CLKOUT4_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT4_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT4_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT5_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT5_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT5_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLKOUT6_DIVIDE {1} \
+  CONFIG.MMCM_CLKOUT6_DUTY_CYCLE {0.500} \
+  CONFIG.MMCM_CLKOUT6_PHASE {0.000} \
+  CONFIG.MMCM_CLKOUT6_USE_FINE_PS {false} \
+  CONFIG.MMCM_CLOCK_HOLD {false} \
+  CONFIG.MMCM_COMPENSATION {ZHOLD} \
+  CONFIG.MMCM_DIVCLK_DIVIDE {5} \
+  CONFIG.MMCM_NOTES {None} \
+  CONFIG.MMCM_REF_JITTER1 {0.010} \
+  CONFIG.MMCM_REF_JITTER2 {0.010} \
+  CONFIG.MMCM_STARTUP_WAIT {false} \
+  CONFIG.NUM_OUT_CLKS {1} \
+  CONFIG.OVERRIDE_MMCM {false} \
+  CONFIG.OVERRIDE_PLL {false} \
+  CONFIG.PHASESHIFT_MODE {WAVEFORM} \
+  CONFIG.PHASE_DUTY_CONFIG {false} \
+  CONFIG.PLATFORM {UNKNOWN} \
+  CONFIG.PLL_BANDWIDTH {OPTIMIZED} \
+  CONFIG.PLL_CLKFBOUT_MULT {4} \
+  CONFIG.PLL_CLKFBOUT_PHASE {0.000} \
+  CONFIG.PLL_CLKIN_PERIOD {10.000} \
+  CONFIG.PLL_CLKOUT0_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT0_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT0_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT1_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT1_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT1_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT2_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT2_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT2_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT3_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT3_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT3_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT4_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT4_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT4_PHASE {0.000} \
+  CONFIG.PLL_CLKOUT5_DIVIDE {1} \
+  CONFIG.PLL_CLKOUT5_DUTY_CYCLE {0.500} \
+  CONFIG.PLL_CLKOUT5_PHASE {0.000} \
+  CONFIG.PLL_CLK_FEEDBACK {CLKFBOUT} \
+  CONFIG.PLL_COMPENSATION {SYSTEM_SYNCHRONOUS} \
+  CONFIG.PLL_DIVCLK_DIVIDE {1} \
+  CONFIG.PLL_NOTES {None} \
+  CONFIG.PLL_REF_JITTER {0.010} \
+  CONFIG.POWER_DOWN_PORT {power_down} \
+  CONFIG.PRECISION {1} \
+  CONFIG.PRIMARY_PORT {clk_in1} \
+  CONFIG.PRIMITIVE {MMCM} \
+  CONFIG.PRIMTYPE_SEL {mmcm_adv} \
+  CONFIG.PRIM_IN_FREQ {100.000} \
+  CONFIG.PRIM_IN_JITTER {0.010} \
+  CONFIG.PRIM_IN_TIMEPERIOD {10.000} \
+  CONFIG.PRIM_SOURCE {Single_ended_clock_capable_pin} \
+  CONFIG.PSCLK_PORT {psclk} \
+  CONFIG.PSDONE_PORT {psdone} \
+  CONFIG.PSEN_PORT {psen} \
+  CONFIG.PSINCDEC_PORT {psincdec} \
+  CONFIG.REF_CLK_FREQ {100.0} \
+  CONFIG.RELATIVE_INCLK {REL_PRIMARY} \
+  CONFIG.RESET_BOARD_INTERFACE {reset} \
+  CONFIG.RESET_PORT {resetn} \
+  CONFIG.RESET_TYPE {ACTIVE_LOW} \
+  CONFIG.SECONDARY_IN_FREQ {100.000} \
+  CONFIG.SECONDARY_IN_JITTER {0.010} \
+  CONFIG.SECONDARY_IN_TIMEPERIOD {10.000} \
+  CONFIG.SECONDARY_PORT {clk_in2} \
+  CONFIG.SECONDARY_SOURCE {Single_ended_clock_capable_pin} \
+  CONFIG.SS_MODE {CENTER_HIGH} \
+  CONFIG.SS_MOD_FREQ {250} \
+  CONFIG.SS_MOD_TIME {0.004} \
+  CONFIG.STATUS_PORT {STATUS} \
+  CONFIG.SUMMARY_STRINGS {empty} \
+  CONFIG.USER_CLK_FREQ0 {100.0} \
+  CONFIG.USER_CLK_FREQ1 {100.0} \
+  CONFIG.USER_CLK_FREQ2 {100.0} \
+  CONFIG.USER_CLK_FREQ3 {100.0} \
+  CONFIG.USE_BOARD_FLOW {true} \
+  CONFIG.USE_CLKFB_STOPPED {false} \
+  CONFIG.USE_CLK_VALID {false} \
+  CONFIG.USE_CLOCK_SEQUENCING {false} \
+  CONFIG.USE_DYN_PHASE_SHIFT {false} \
+  CONFIG.USE_DYN_RECONFIG {false} \
+  CONFIG.USE_FREEZE {false} \
+  CONFIG.USE_FREQ_SYNTH {true} \
+  CONFIG.USE_INCLK_STOPPED {false} \
+  CONFIG.USE_INCLK_SWITCHOVER {false} \
+  CONFIG.USE_LOCKED {true} \
+  CONFIG.USE_MAX_I_JITTER {false} \
+  CONFIG.USE_MIN_O_JITTER {false} \
+  CONFIG.USE_MIN_POWER {false} \
+  CONFIG.USE_PHASE_ALIGNMENT {true} \
+  CONFIG.USE_POWER_DOWN {false} \
+  CONFIG.USE_RESET {true} \
+  CONFIG.USE_SAFE_CLOCK_STARTUP {false} \
+  CONFIG.USE_SPREAD_SPECTRUM {false} \
+  CONFIG.USE_STATUS {false} \
+  CONFIG.resetn.BOARD.ASSOCIATED_PARAM {RESET_BOARD_INTERFACE} \
+  CONFIG.resetn.INSERT_VIP {0} \
+  CONFIG.resetn.POLARITY {ACTIVE_LOW} " [get_ips design_1_clk_wiz_1_0]
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_quad_spi_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_axi_quad_spi_0_0 (xilinx.com:ip:axi_quad_spi:3.2 (Rev. 21)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:21:37 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a15tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_LVDS_Transmitter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_LVDS_Transmitter_0_0 (Laudren.local:user:LVDS_Transmitter:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 28 17:04:06 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jun 22 11:56:58 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Thu Jun 22 11:13:46 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 21 17:53:26 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 21 17:11:49 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 21 16:59:47 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 21 16:42:08 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun 21 11:35:19 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun 20 17:02:07 2023
+| Host         : SIREN-801 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tsbg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_uart_axifull_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of design_1_uart_axifull_0_3 (Laudren.local:user:uart_axifull:1.0 (Rev. 3)) to Vivado generation flows.
+

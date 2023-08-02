@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\agouriou\Desktop\new_test\Platform\export\Platform;C:\Users\agouriou\Desktop\proj_vitis\blowbox_v18_hardware\export\blowbox_v18_hardware;C:\Users\agouriou\Desktop\proj_vitis\Platform\export\Platform;C:\Users\agouriou\Desktop\proj_vitis\blowbox_v19_hardware\export\blowbox_v19_hardware;C:\Users\agouriou\Desktop\blowbox\Microblaze5\SDK\blowbox_v19_hardware\export\blowbox_v19_hardware;C:\Users\agouriou\Desktop\blowbox\Microblaze5\SDK\Platform\export\Platform"/>
+</section>

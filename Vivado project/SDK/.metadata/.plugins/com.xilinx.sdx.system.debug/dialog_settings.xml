@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="App_system-imgFile" value="C:\Users\agouriou\Desktop\blowbox\Microblaze5\SDK\App\Debug\App.elf"/>
+	<item key="App_system-offSet" value="0x00A00000"/>
+	<item key="App_system-initFile" value=""/>
+	<item key="App_system-flashType" value="s25fl256sxxxxxx0-spi-x1_x2_x4"/>
+	<item key="App_system-verifyFlash" value="false"/>
+	<item key="App_system-blankCheck" value="false"/>
+	<item key="App_system-device" value="Auto Detect"/>
+	<item key="App_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="App_system"/>
+</section>

@@ -1,0 +1,17 @@
+16:38:02 **** Build of configuration Release for project bootloader ****
+make all 
+'Building file: ../src/bootloader.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/bootloader.o" -IC:/Users/agouriou/Desktop/new_test/Platform/export/Platform/sw/Platform/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/bootloader.d" -MT"src/bootloader.o" -o "src/bootloader.o" "../src/bootloader.c"
+In file included from ../src/bootloader.c:30:
+../src/blconfig.h:5:2: warning: #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed" [-Wcpp]
+    5 | #warning "Please provide the correct address value for the definition FLASH_IMAGE_BASEADDR. Please give the flash offset @ which SREC application is programmed"
+      |  ^~~~~~~
+../src/bootloader.c:35:10: fatal error: xspi.h: No such file or directory
+   35 | #include "xspi.h"
+      |          ^~~~~~~~
+compilation terminated.
+make: *** [src/subdir.mk:29: src/bootloader.o] Error 1
+
+16:38:02 Build Finished (took 222ms)
+

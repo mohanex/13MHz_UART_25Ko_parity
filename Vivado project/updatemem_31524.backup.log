@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# 
+# Start of session at: Tue Feb 14 17:14:11 2023
+# Process ID: 31524
+# Current directory: C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/Vitis/2020.2/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/design_1_wrapper.mmi -data C:/Xilinx/Vitis/2020.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/design_1_wrapper.bit -out C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/download.bit -force
+# Log file: C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/updatemem.log
+# Journal file: C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Vitis/2020.2/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/design_1_wrapper.mmi -data C:/Xilinx/Vitis/2020.2/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/design_1_wrapper.bit -out C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/download.bit -force
+Loading bitfile C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/design_1_wrapper.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream C:/Users/agouriou/Desktop/projet_microblaze/Microblaze5/mySDK/App/_ide/bitstream/download.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1073.344 ; gain = 621.215
+INFO: [Common 17-206] Exiting updatemem at Tue Feb 14 17:14:35 2023...

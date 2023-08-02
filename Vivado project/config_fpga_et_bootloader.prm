@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00947A5B    Apr 12 11:35:50 2023    C:/Users/agouriou/Desktop/blowbox/Microblaze5/Microblaze5.runs/impl_1/design_1_wrapper.bit
