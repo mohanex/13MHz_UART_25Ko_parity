@@ -1,3 +1,11 @@
+sv xpm --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/d0f7" --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+"C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv" \
+"C:/Xilinx/Vivado/2020.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog xlconcat_v2_1_4 --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/d0f7" --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
+"../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v" \
+
 verilog xil_defaultlib --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/d0f7" --include "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/ec67/hdl" \
 "../../../bd/design_1/ip/design_1_microblaze_0_xlconcat_0/sim/design_1_microblaze_0_xlconcat_0.v" \
 

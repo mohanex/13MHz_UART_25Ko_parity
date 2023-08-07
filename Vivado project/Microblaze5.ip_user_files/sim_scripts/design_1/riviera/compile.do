@@ -88,10 +88,10 @@ vcom -work proc_sys_reset_v5_0_13 -93 \
 
 vcom -work xil_defaultlib -93 \
 "../../../bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/sim/design_1_rst_clk_wiz_1_100M_0.vhd" \
-"../../../bd/design_1/ipshared/b326/hdl/uart_axifull_v1_0_S00_AXI.vhd" \
-"../../../bd/design_1/ipshared/b326/hdl/uart_axifull_v1_0_S01_AXI.vhd" \
-"../../../bd/design_1/ipshared/b326/hdl/uart_tx.vhd" \
-"../../../bd/design_1/ipshared/b326/hdl/uart_axifull_v1_0.vhd" \
+"../../../bd/design_1/ipshared/7605/hdl/uart_axifull_v1_0_S00_AXI.vhd" \
+"../../../bd/design_1/ipshared/7605/hdl/uart_axifull_v1_0_S01_AXI.vhd" \
+"../../../bd/design_1/ipshared/7605/hdl/uart_tx.vhd" \
+"../../../bd/design_1/ipshared/7605/hdl/uart_axifull_v1_0.vhd" \
 "../../../bd/design_1/ip/design_1_uart_axifull_0_3/sim/design_1_uart_axifull_0_3.vhd" \
 "../../../bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl" \
 "../../../bd/design_1/sim/design_1.vhd" \

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/mafassi/Desktop/lastMODIF/Microblaze5.runs/synth_1'
+HD_PWD='C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
