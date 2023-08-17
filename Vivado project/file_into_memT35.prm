@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SPIX4
+Size               2M
+Start Address      0x00000000
+End Address        0x001FFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x000E0000    0x000E63FE    Aug 10 14:22:28 2023    C:/Users/mafassi/Desktop/csv format-20230601T073237Z-001/new/csvtobin/csvtobin/320x80_ImageTestDeadPixelPcba_1_255.bin

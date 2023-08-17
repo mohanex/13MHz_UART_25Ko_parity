@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Aug  7 11:43:09 2023
-# Process ID: 13788
-# Current directory: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1
+# Start of session at: Wed Aug 16 09:51:35 2023
+# Process ID: 17924
+# Current directory: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1
 # Command line: vivado.exe -log design_1_uart_axifull_0_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_uart_axifull_0_3.tcl
-# Log file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1/design_1_uart_axifull_0_3.vds
-# Journal file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1\vivado.jou
+# Log file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1/design_1_uart_axifull_0_3.vds
+# Journal file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_uart_axifull_0_3_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_uart_axifull_0_3.tcl -notrace

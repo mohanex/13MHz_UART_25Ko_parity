@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
---Date        : Mon Aug  7 11:43:04 2023
+--Date        : Wed Aug 16 09:51:29 2023
 --Host        : SIREN-801 running 64-bit major release  (build 9200)
 --Command     : generate_target design_1_wrapper.bd
 --Design      : design_1_wrapper
@@ -13,6 +13,8 @@ library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 entity design_1_wrapper is
   port (
+    GPIO_IN_tri_i : in STD_LOGIC_VECTOR ( 6 downto 0 );
+    GPIO_OUT_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     baudrate_out : inout STD_LOGIC;
     clk_out1 : out STD_LOGIC;
     out_N_0 : out STD_LOGIC;
@@ -36,6 +38,8 @@ architecture STRUCTURE of design_1_wrapper is
     out_P_0 : out STD_LOGIC;
     clk_out1 : out STD_LOGIC;
     baudrate_out : inout STD_LOGIC;
+    GPIO_OUT_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
+    GPIO_IN_tri_i : in STD_LOGIC_VECTOR ( 6 downto 0 );
     qspi_flash_io0_i : in STD_LOGIC;
     qspi_flash_io0_o : out STD_LOGIC;
     qspi_flash_io0_t : out STD_LOGIC;
@@ -79,6 +83,8 @@ architecture STRUCTURE of design_1_wrapper is
 begin
 design_1_i: component design_1
      port map (
+      GPIO_IN_tri_i(6 downto 0) => GPIO_IN_tri_i(6 downto 0),
+      GPIO_OUT_tri_o(0) => GPIO_OUT_tri_o(0),
       baudrate_out => baudrate_out,
       clk_out1 => clk_out1,
       out_N_0 => out_N_0,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Aug 11 15:11:09 2023
+# Process ID: 18120
+# Current directory: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_microblaze_0_axi_intc_0_synth_1
+# Command line: vivado.exe -log design_1_microblaze_0_axi_intc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_microblaze_0_axi_intc_0.tcl
+# Log file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_microblaze_0_axi_intc_0_synth_1/design_1_microblaze_0_axi_intc_0.vds
+# Journal file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_microblaze_0_axi_intc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_microblaze_0_axi_intc_0.tcl -notrace

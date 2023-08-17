@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/Microblaze5/Microblaze5.runs/design_1_mdm_1_0_synth_1'
+HD_PWD='C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.runs/design_1_mdm_1_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

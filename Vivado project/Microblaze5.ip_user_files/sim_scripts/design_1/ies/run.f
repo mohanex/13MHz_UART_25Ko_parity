@@ -22,11 +22,23 @@
   "../../../bd/design_1/ip/design_1_lmb_bram_0/design_1_lmb_bram_0_sim_netlist.vhdl" \
   "../../../bd/design_1/ipshared/0280/src/top_buffer.vhd" \
   "../../../bd/design_1/ip/design_1_LVDS_Transmitter_0_0/sim/design_1_LVDS_Transmitter_0_0.vhd" \
-  "../../../bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_sim_netlist.vhdl" \
-  "../../../bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_sim_netlist.vhdl" \
 -endlib
 -makelib ies_lib/axi_lite_ipif_v3_0_4 \
   "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/66ea/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/lib_cdc_v1_0_2 \
+  "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
+-endlib
+-makelib ies_lib/interrupt_control_v3_1_4 \
+  "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/axi_gpio_v2_0_24 \
+  "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/4318/hdl/axi_gpio_v2_0_vh_rfs.vhd" \
+-endlib
+-makelib ies_lib/xil_defaultlib \
+  "../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+  "../../../bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0_sim_netlist.vhdl" \
+  "../../../bd/design_1/ip/design_1_clk_wiz_1_0/design_1_clk_wiz_1_0_sim_netlist.vhdl" \
 -endlib
 -makelib ies_lib/mdm_v3_2_19 \
   "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/8715/hdl/mdm_v3_2_vh_rfs.vhd" \
@@ -53,18 +65,15 @@
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_microblaze_0_xlconcat_0/sim/design_1_microblaze_0_xlconcat_0.v" \
 -endlib
--makelib ies_lib/lib_cdc_v1_0_2 \
-  "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd" \
--endlib
 -makelib ies_lib/proc_sys_reset_v5_0_13 \
   "../../../../Microblaze5.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/sim/design_1_rst_clk_wiz_1_100M_0.vhd" \
-  "../../../bd/design_1/ipshared/3a0c/hdl/uart_axifull_v1_0_S00_AXI.vhd" \
-  "../../../bd/design_1/ipshared/3a0c/hdl/uart_axifull_v1_0_S01_AXI.vhd" \
-  "../../../bd/design_1/ipshared/3a0c/hdl/uart_tx.vhd" \
-  "../../../bd/design_1/ipshared/3a0c/hdl/uart_axifull_v1_0.vhd" \
+  "../../../bd/design_1/ipshared/ca8a/hdl/uart_axifull_v1_0_S00_AXI.vhd" \
+  "../../../bd/design_1/ipshared/ca8a/hdl/uart_axifull_v1_0_S01_AXI.vhd" \
+  "../../../bd/design_1/ipshared/ca8a/hdl/uart_tx.vhd" \
+  "../../../bd/design_1/ipshared/ca8a/hdl/uart_axifull_v1_0.vhd" \
   "../../../bd/design_1/ip/design_1_uart_axifull_0_3/sim/design_1_uart_axifull_0_3.vhd" \
   "../../../bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_sim_netlist.vhdl" \
   "../../../bd/design_1/sim/design_1.vhd" \

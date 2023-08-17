@@ -24,6 +24,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_lm
 # IP: bd/design_1/ip/design_1_LVDS_Transmitter_0_0/design_1_LVDS_Transmitter_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_LVDS_Transmitter_0_0 || ORIG_REF_NAME==design_1_LVDS_Transmitter_0_0} -quiet] -quiet
 
+# IP: bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_gpio_0_0 || ORIG_REF_NAME==design_1_axi_gpio_0_0} -quiet] -quiet
+
 # IP: bd/design_1/ip/design_1_axi_quad_spi_0_0/design_1_axi_quad_spi_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axi_quad_spi_0_0 || ORIG_REF_NAME==design_1_axi_quad_spi_0_0} -quiet] -quiet
 
@@ -42,6 +45,9 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_mi
 # IP: bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_xbar_0 || ORIG_REF_NAME==design_1_xbar_0} -quiet] -quiet
 
+# IP: bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_auto_pc_0 || ORIG_REF_NAME==design_1_auto_pc_0} -quiet] -quiet
+
 # IP: bd/design_1/ip/design_1_microblaze_0_axi_periph_1/design_1_microblaze_0_axi_periph_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_microblaze_0_axi_periph_1 || ORIG_REF_NAME==design_1_microblaze_0_axi_periph_1} -quiet] -quiet
 
@@ -54,7 +60,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_rs
 # IP: bd/design_1/ip/design_1_uart_axifull_0_3/design_1_uart_axifull_0_3.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_uart_axifull_0_3 || ORIG_REF_NAME==design_1_uart_axifull_0_3} -quiet] -quiet
 
-# IP: bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_auto_pc_0 || ORIG_REF_NAME==design_1_auto_pc_0} -quiet] -quiet
-
-# XDC: c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.gen/sources_1/bd/design_1/design_1_ooc.xdc

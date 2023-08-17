@@ -3,10 +3,10 @@
 // SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 // Vivado v2020.2 (64-bit)
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-// Created on Monday August 07, 2023 - 11:43:14 am, from:
+// Created on Wednesday August 16, 2023 - 09:51:41 am, from:
 //
-//     Map file     - c:\Users\mafassi\Desktop\13MHz_UART_25Ko_parity\Vivado project\Microblaze5.gen\sources_1\bd\design_1\design_1.bmm
-//     Data file(s) - c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity/Vivado project/Microblaze5.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf
+//     Map file     - c:\Users\mafassi\Desktop\13MHz_UART_25Ko_parity - Copie\Vivado project\Microblaze5.gen\sources_1\bd\design_1\design_1.bmm
+//     Data file(s) - c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado project/Microblaze5.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_0/data/mb_bootloop_le.elf
 //
 // Address space 'design_1_microblaze_0.design_1_microblaze_0_local_memory_lmb_bram_ADDR_SPACE', bit lane [31:0].
 //

@@ -1,0 +1,2750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>Laudren.local</spirit:vendor>
+  <spirit:library>user</spirit:library>
+  <spirit:name>uart_axifull</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="S00_AXI"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awaddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wstrb</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_araddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>WIZ_DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197">32</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WIZ_NUM_REG</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_NUM_REG" spirit:minimum="4" spirit:maximum="512" spirit:rangeType="long">4</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.SUPPORTS_NARROW_BURST" spirit:choiceRef="choice_pairs_ce1226b1">0</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S01_AXI</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="S01_AXI"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awaddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWLEN</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awlen</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWSIZE</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awsize</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWBURST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awburst</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWLOCK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awlock</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWCACHE</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awcache</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREGION</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awregion</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWQOS</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awqos</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWUSER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awuser</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_awready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wstrb</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wlast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WUSER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wuser</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_wready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_bid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_bresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BUSER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_buser</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_bvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_bready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_araddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARLEN</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arlen</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARSIZE</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arsize</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARBURST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arburst</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARLOCK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arlock</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARCACHE</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arcache</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREGION</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arregion</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARQOS</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arqos</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARUSER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_aruser</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_arready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rlast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RUSER</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_ruser</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_rready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>WIZ_DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S01_AXI.WIZ_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197">32</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WIZ_MEMORY_SIZE</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S01_AXI.WIZ_MEMORY_SIZE" spirit:choiceRef="choice_list_ac3b832e">1024</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S01_AXI.SUPPORTS_NARROW_BURST" spirit:choiceRef="choice_pairs_ce1226b1">0</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_RST</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aresetn</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aclk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_BUSIF">S00_AXI</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_RESET">s00_axi_aresetn</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S01_AXI_RST</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_aresetn</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S01_AXI_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S01_AXI_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s01_axi_aclk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S01_AXI_CLK.ASSOCIATED_BUSIF">S01_AXI</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S01_AXI_CLK.ASSOCIATED_RESET">s01_axi_aresetn</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+    <spirit:memoryMap>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>S00_AXI_reg</spirit:name>
+        <spirit:baseAddress spirit:format="long" spirit:resolve="user">0</spirit:baseAddress>
+        <spirit:range spirit:format="long">4096</spirit:range>
+        <spirit:width spirit:format="long">32</spirit:width>
+        <spirit:usage>register</spirit:usage>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>OFFSET_BASE_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_BASE_PARAM">C_S00_AXI_BASEADDR</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>OFFSET_HIGH_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_HIGH_PARAM">C_S00_AXI_HIGHADDR</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+    <spirit:memoryMap>
+      <spirit:name>S01_AXI</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>S01_AXI_mem</spirit:name>
+        <spirit:baseAddress spirit:format="long" spirit:resolve="user">0</spirit:baseAddress>
+        <spirit:range spirit:format="long">4096</spirit:range>
+        <spirit:width spirit:format="long">32</spirit:width>
+        <spirit:usage>memory</spirit:usage>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>OFFSET_BASE_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S01_AXI.S01_AXI_MEM.OFFSET_BASE_PARAM">C_S01_AXI_BASEADDR</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>OFFSET_HIGH_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S01_AXI.S01_AXI_MEM.OFFSET_HIGH_PARAM">C_S01_AXI_HIGHADDR</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+  </spirit:memoryMaps>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlsynthesis</spirit:name>
+        <spirit:displayName>VHDL Synthesis</spirit:displayName>
+        <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>vhdl</spirit:language>
+        <spirit:modelName>uart_axifull_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlsynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>89e6bfe3</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlbehavioralsimulation</spirit:name>
+        <spirit:displayName>VHDL Simulation</spirit:displayName>
+        <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>vhdl</spirit:language>
+        <spirit:modelName>uart_axifull_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>89e6bfe3</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_softwaredriver</spirit:name>
+        <spirit:displayName>Software Driver</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:sw.driver</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_softwaredriver_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>eaeb9aac</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>402f9d74</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>bd_tcl</spirit:name>
+        <spirit:displayName>Block Diagram</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:block.diagram</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>bd_tcl_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>f0cee515</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>tx_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>baudrate_out</spirit:name>
+        <spirit:wire>
+          <spirit:direction>inout</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aclk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aresetn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awaddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wstrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_araddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_aclk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_aresetn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_awid" xilinx:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awaddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">16</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awlen</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awsize</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awburst</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awlock</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awcache</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awqos</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awregion</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awuser</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_AWUSER_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_awuser" xilinx:dependency="spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_AWUSER_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_awready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wstrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_DATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wlast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wuser</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_WUSER_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_wuser" xilinx:dependency="spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_WUSER_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_wready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_bid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_bid" xilinx:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_bresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_buser</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_BUSER_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_buser" xilinx:dependency="spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_BUSER_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_bvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_bready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_arid" xilinx:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_araddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">16</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arlen</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">7</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arsize</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arburst</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arlock</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arcache</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arqos</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arregion</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_aruser</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ARUSER_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_aruser" xilinx:dependency="spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_ARUSER_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_arready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_rid" xilinx:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rlast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_ruser</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S01_AXI_RUSER_WIDTH&apos;)) - 1)">0</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+          <spirit:driver>
+            <spirit:defaultValue spirit:format="long">0</spirit:defaultValue>
+          </spirit:driver>
+        </spirit:wire>
+        <spirit:vendorExtensions>
+          <xilinx:portInfo>
+            <xilinx:enablement>
+              <xilinx:isEnabled xilinx:resolve="dependent" xilinx:id="PORT_ENABLEMENT.s01_axi_ruser" xilinx:dependency="spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_RUSER_WIDTH&apos;)) >0">true</xilinx:isEnabled>
+            </xilinx:enablement>
+          </xilinx:portInfo>
+        </spirit:vendorExtensions>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s01_axi_rready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+              <spirit:viewNameRef>xilinx_vhdlbehavioralsimulation</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI data bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:order="3" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI address bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">4</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_ID_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI ID WIDTH</spirit:displayName>
+        <spirit:description>Width of ID for for write address, write data, read address and read data</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_ID_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_ID_WIDTH&apos;))))" spirit:order="7" spirit:minimum="0" spirit:maximum="32" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_DATA_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI DATA WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI data bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_DATA_WIDTH" spirit:order="8" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_ADDR_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI ADDR WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI address bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_ADDR_WIDTH" spirit:order="9" spirit:rangeType="long">17</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_AWUSER_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI AWUSER WIDTH</spirit:displayName>
+        <spirit:description>Width of optional user defined signal in write address channel</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_AWUSER_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_AWUSER_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_AWUSER_WIDTH&apos;))))" spirit:order="10" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_ARUSER_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI ARUSER WIDTH</spirit:displayName>
+        <spirit:description>Width of optional user defined signal in read address channel</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_ARUSER_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_ARUSER_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_ARUSER_WIDTH&apos;))))" spirit:order="11" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_WUSER_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI WUSER WIDTH</spirit:displayName>
+        <spirit:description>Width of optional user defined signal in write data channel</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_WUSER_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_WUSER_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_WUSER_WIDTH&apos;))))" spirit:order="12" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_RUSER_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI RUSER WIDTH</spirit:displayName>
+        <spirit:description>Width of optional user defined signal in read data channel</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_RUSER_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_RUSER_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_RUSER_WIDTH&apos;))))" spirit:order="13" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S01_AXI_BUSER_WIDTH</spirit:name>
+        <spirit:displayName>C S01 AXI BUSER WIDTH</spirit:displayName>
+        <spirit:description>Width of optional user defined signal in write response channel</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S01_AXI_BUSER_WIDTH" spirit:dependency="((spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_BUSER_WIDTH&apos;)) &lt;= 0 ) + (spirit:decode(id(&apos;PARAM_VALUE.C_S01_AXI_BUSER_WIDTH&apos;))))" spirit:order="14" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_clkfreq</spirit:name>
+        <spirit:displayName>C Clkfreq</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.c_clkfreq">50000000</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_baudrate</spirit:name>
+        <spirit:displayName>C Baudrate</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.c_baudrate">115200</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>c_stopbit</spirit:name>
+        <spirit:displayName>C Stopbit</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.c_stopbit">2</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_6fc15197</spirit:name>
+      <spirit:enumeration>32</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_ac3b832e</spirit:name>
+      <spirit:enumeration>64</spirit:enumeration>
+      <spirit:enumeration>128</spirit:enumeration>
+      <spirit:enumeration>256</spirit:enumeration>
+      <spirit:enumeration>512</spirit:enumeration>
+      <spirit:enumeration>1024</spirit:enumeration>
+      <spirit:enumeration>2048</spirit:enumeration>
+      <spirit:enumeration>4096</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_ce1226b1</spirit:name>
+      <spirit:enumeration spirit:text="true">1</spirit:enumeration>
+      <spirit:enumeration spirit:text="false">0</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlsynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0_S01_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_tx.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_6ddd17ed</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0_S01_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_tx.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/uart_axifull_v1_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_softwaredriver_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/data/uart_axifull.mdd</spirit:name>
+        <spirit:userFileType>mdd</spirit:userFileType>
+        <spirit:userFileType>driver_mdd</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/data/uart_axifull.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>driver_tcl</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/src/Makefile</spirit:name>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/src/uart_axifull.h</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/src/uart_axifull.c</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/uart_axifull_v1_0/src/uart_axifull_selftest.c</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/uart_axifull_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_402f9d74</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>bd_tcl_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>bd/bd.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>My new AXI IP</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI data bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197" spirit:order="3">32</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_DATA_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI address bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">4</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_ADDR_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_BASEADDR</spirit:name>
+      <spirit:displayName>C S00 AXI BASEADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_BASEADDR" spirit:order="5" spirit:bitStringLength="32">0xFFFFFFFF</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_BASEADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_HIGHADDR</spirit:name>
+      <spirit:displayName>C S00 AXI HIGHADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_HIGHADDR" spirit:order="6" spirit:bitStringLength="32">0x00000000</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_HIGHADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_ID_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI ID WIDTH</spirit:displayName>
+      <spirit:description>Width of ID for for write address, write data, read address and read data</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_ID_WIDTH" spirit:order="7" spirit:minimum="0" spirit:maximum="32" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_DATA_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI DATA WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI data bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197" spirit:order="8">32</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S01_AXI_DATA_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_ADDR_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI ADDR WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI address bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_ADDR_WIDTH" spirit:order="9" spirit:rangeType="long">17</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S01_AXI_ADDR_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_AWUSER_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI AWUSER WIDTH</spirit:displayName>
+      <spirit:description>Width of optional user defined signal in write address channel</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_AWUSER_WIDTH" spirit:order="10" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_ARUSER_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI ARUSER WIDTH</spirit:displayName>
+      <spirit:description>Width of optional user defined signal in read address channel</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_ARUSER_WIDTH" spirit:order="11" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_WUSER_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI WUSER WIDTH</spirit:displayName>
+      <spirit:description>Width of optional user defined signal in write data channel</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_WUSER_WIDTH" spirit:order="12" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_RUSER_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI RUSER WIDTH</spirit:displayName>
+      <spirit:description>Width of optional user defined signal in read data channel</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_RUSER_WIDTH" spirit:order="13" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_BUSER_WIDTH</spirit:name>
+      <spirit:displayName>C S01 AXI BUSER WIDTH</spirit:displayName>
+      <spirit:description>Width of optional user defined signal in write response channel</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_BUSER_WIDTH" spirit:order="14" spirit:minimum="0" spirit:maximum="1024" spirit:rangeType="long">1</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_BASEADDR</spirit:name>
+      <spirit:displayName>C S01 AXI BASEADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_BASEADDR" spirit:order="15" spirit:bitStringLength="32">0xFFFFFFFF</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S01_AXI_BASEADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S01_AXI_HIGHADDR</spirit:name>
+      <spirit:displayName>C S01 AXI HIGHADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S01_AXI_HIGHADDR" spirit:order="16" spirit:bitStringLength="32">0x00000000</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S01_AXI_HIGHADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">uart_axifull_v1_0</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>c_clkfreq</spirit:name>
+      <spirit:displayName>C Clkfreq</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.c_clkfreq">50000000</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>c_baudrate</spirit:name>
+      <spirit:displayName>C Baudrate</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.c_baudrate">115200</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>c_stopbit</spirit:name>
+      <spirit:displayName>C Stopbit</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.c_stopbit">2</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">artix7</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>uart_axifull_v1.0</xilinx:displayName>
+      <xilinx:coreRevision>38</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-08-16T07:50:34Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cea26b5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7da69388_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@260cc7e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d3ead23_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cbb51c6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a34ac6a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1fd6046e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b67c587_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7814aedb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b3451db_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7847d2f1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3319336c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60869946_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@519c5797_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21edce6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3596ce99_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/new08/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@276d6c65_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@285bf672_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5aa0171b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64130a63_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ee7fb5c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@669187ce_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@548b9bfb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32fe0a2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15f5b741_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53801d40_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d25eb58_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@406990ab_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e9dd241_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9fb3dfb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63dc7a2e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e733e9e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d4f2ea_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4471a50d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79f2d8f0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2985521e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e12c09e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ba00512_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c93d1f9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a8fcc3e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a655700_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55badd29_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68815934_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ac49d4b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@154fd502_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e57762f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@142777ff_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ef00917_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d9ae857_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c8e115c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d5a60f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50abc929_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58bdbf74_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74d89d16_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60fe5b8f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@500380c8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67a22286_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4099d96a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63d8bcc0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11ecc17b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@662a15b9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e0814d2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59fe8253_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51abb62c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ac2dc6a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43eb886e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@192a8290_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52c4997a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f4b9e3d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e43d2ba_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57902d24_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a6d7c93_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4891dc23_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d8435be_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a2dd955_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60956f16_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e28daa4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3978ba6b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53bb265a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d26a92_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f22c1fb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57a91b69_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d2dafc0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28c3a3eb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cee712d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5655354e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37e8a119_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d7af77c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1da90980_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@761f6908_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@272721e6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67780987_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5cae1a00_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@699b1792_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e57640b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d05ffb5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44213bd3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66ad05f2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ba5ce49_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e00a81_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@586e1770_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7614d347_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4868e98f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a97f6f3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45c7d32d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c4ae38b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19a3cbe4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78c3e4b3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@300d4452_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5016e659_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15a6b366_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@431b6930_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24f26ff2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d6b2dc8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b7c4916_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@169cbaf9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d5d96f8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35e25_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@aeb00e0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e737a90_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48297834_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11b00cd2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7be0dfb1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6979009_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1baec959_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65d74657_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@aa68528_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38b4c2c6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@786088e7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6120eab2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@cecc1b7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d80a8fd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d45398b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12bcefe7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@282eddde_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e2ef6bf_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@559dd7d5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b7f2180_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@635e1bf6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1709a238_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bc614ce_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c46fd4f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72604503_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3856bf94_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6aebd0b8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73d8f57a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71c6344c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42642d64_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@235b4ad4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d6b5e63_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4649fd82_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ddfc310_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e6aae15_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@141df70f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ccebed_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3be6a262_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a889e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ccc5ca_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a5d2238_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1873e0bf_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60ba77cb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cec5e21_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26c7ec62_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bd4598e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50422790_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ff72d7a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25e54a85_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b6dcf33_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5393eb52_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@540301c0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@719d0df4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f02d2e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@329ced7e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bf98e67_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38e25f9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38e5df12_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cc2758e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b411938_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@357f746_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6e4b6d16_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41cb624c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@489db37_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ac45769_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e68180_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50f2361_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16aac88b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54358c79_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26f75e1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61672bdc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a392cf0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61db9680_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36ffa439_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bc9ad3d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1256cf72_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7601a812_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d0edd55_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52bfd412_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6112a161_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2cdfc30c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a5ca8d2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76ef2e5f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d4e2dd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1805fada_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b731520_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57aa5bef_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@385f6882_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17612d64_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@fa7ad4c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3dfc63e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45f3d3a6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@305c9840_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16e83f67_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@363a728d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a2384e1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@220b2428_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51070cbd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@8ab7ed5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d6ae699_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72fd9a16_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@777b95a0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27edba3b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@234b24ae_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74566ca2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b37edb6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@afe56d5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5275e354_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49c292b6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a7ab9fb_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@361234d4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@594856df_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76db91b0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39ad4814_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@789e50b6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66479181_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41a9ea71_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73e9176a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e8e7873_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@580e805c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4133cccc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d2d20b5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72a0e705_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f45a6ed_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@744b1801_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1980ea4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f7bf4e4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29216ff0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2f8037b6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@267c140b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@237d428f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fcc2cad_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34c2d920_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58bc7a78_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@509f6ca8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d8236b0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a5aacac_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78d71eea_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d86d7c7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42b6463_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d91262f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@bdc9e2b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60f9eccc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2fa8a111_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@447db3e2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a86681e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@519f8871_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16bed7d9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ab850fa_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24f34d5d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c60db17_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6088759e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b2a6975_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d0fece7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@550cde96_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bafd51c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fffadd4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@256d91be_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6847bf0f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36f188b0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e4dd049_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57ea61b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3bb239a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6efcd730_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d0fe8e2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55d3446c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42e0deff_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1aa65673_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32f03d8c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@134ee2ea_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f4097bd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f243b86_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24c2aa04_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6370e114_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d1e34a9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74a778a8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b3203a2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4564ed09_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fba9fb9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@583f00a3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f65d9f5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bf3de14_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b37bc72_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31619a42_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b5af989_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3abcc448_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@552287cd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@537b7b89_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69354bc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ee28fce_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a8bbf44_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f1f9d47_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@112c71d1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1831e6b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@616751a9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30856d61_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a69acf_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d10dd07_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@469740f0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1add2211_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@533bfa28_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6322e7c7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@240d8d03_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41bd5d7c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@209792bd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76e49099_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e22b4c3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a8d7866_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55f82c48_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dd0bce7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@780f3235_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32926ace_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21847af4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f616d40_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3168a9cc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31f0fb95_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2865f91e_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@215aa802_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a179d68_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b837c19_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1139fd88_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e622ccd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c36fba1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b437219_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10026237_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7052042d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1c996212_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28a274dd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e2a9bcd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d681428_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@431aef7a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6520b796_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2795cdb3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6710b536_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@595b3172_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@737067e3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42cb5d30_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10c083fd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59916740_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@222c809d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31f54463_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f5ec681_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ba63355_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@893e165_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6db113c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@319b0741_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a1caad0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55c21e97_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d9c2c45_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@715ab1c5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d1fa05d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e9f776b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d538d78_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ce7340d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@187f673a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@216402f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e24b948_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4edd9b27_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e0673a8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c9dedfd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78e7754_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54bcb23b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5a1b9105_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77f8bf95_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e6076b0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46ba856b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48ca9f9d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b3fe3a3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5292eb61_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dfcb1c4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14a96dab_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@263f09ca_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@389a0657_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46d9245b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@504448c6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f76d3a1_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d5d67c6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56180f66_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b49c9a4_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79d364b0_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@787d0b91_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3990cf16_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@710bfd1b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c6ec36c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2496a4b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27996df2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50dbf813_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d0f42f2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@99d97dd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ee2f06b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7814841c_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56633f8d_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1aa001dc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@779d4746_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5940c6b5_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e601830_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15701bcc_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d850bd3_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f2830a2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b3fedea_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77620c01_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@542e9bc6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2df4fdb9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fc6c21f_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f217f89_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@347ec753_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@58382bf7_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d436d35_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f6ab8c6_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@469a36ad_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@50b3bd1a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@193093cd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15031d8_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75cd69ab_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52f051a9_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ff5f51b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7295a76b_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@299ce23a_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@91fa217_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@551e23bd_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51d002ce_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a962671_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@190e4534_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e7a0ec2_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@621e5801_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a0f5e22_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d877253_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@201a9d06_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@afbe4ea_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@211c9195_ARCHIVE_LOCATION">c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at 13Mhz/ip_repo/uart_axifull_1.0</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="b7880926"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="1546779e"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="bfd50d99"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="bd62e520"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="26c94843"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="278ba836"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

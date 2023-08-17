@@ -1,11 +1,11 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Mon Aug  7 11:44:19 2023
+| Date         : Wed Aug 16 11:48:43 2023
 | Host         : SIREN-801 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
-| Device       : 7a15tcpg236-1
+| Device       : 7a35tcpg236-1
 | Design State : Synthesized
 ---------------------------------------------------------------------------------------------------------------------------
 
@@ -30,12 +30,12 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |    0 |     0 |     10400 |  0.00 |
-|   LUT as Logic          |    0 |     0 |     10400 |  0.00 |
+| Slice LUTs*             |    0 |     0 |     20800 |  0.00 |
+|   LUT as Logic          |    0 |     0 |     20800 |  0.00 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |    0 |     0 |     20800 |  0.00 |
-|   Register as Flip Flop |    0 |     0 |     20800 |  0.00 |
-|   Register as Latch     |    0 |     0 |     20800 |  0.00 |
+| Slice Registers         |    0 |     0 |     41600 |  0.00 |
+|   Register as Flip Flop |    0 |     0 |     41600 |  0.00 |
+|   Register as Latch     |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -67,9 +67,9 @@ Table of Contents
 +----------------+------+-------+-----------+-------+
 |    Site Type   | Used | Fixed | Available | Util% |
 +----------------+------+-------+-----------+-------+
-| Block RAM Tile |    0 |     0 |        25 |  0.00 |
-|   RAMB36/FIFO* |    0 |     0 |        25 |  0.00 |
-|   RAMB18       |    0 |     0 |        50 |  0.00 |
+| Block RAM Tile |    0 |     0 |        50 |  0.00 |
+|   RAMB36/FIFO* |    0 |     0 |        50 |  0.00 |
+|   RAMB18       |    0 |     0 |       100 |  0.00 |
 +----------------+------+-------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
@@ -80,7 +80,7 @@ Table of Contents
 +-----------+------+-------+-----------+-------+
 | Site Type | Used | Fixed | Available | Util% |
 +-----------+------+-------+-----------+-------+
-| DSPs      |    0 |     0 |        45 |  0.00 |
+| DSPs      |    0 |     0 |        90 |  0.00 |
 +-----------+------+-------+-----------+-------+
 
 
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |    9 |     0 |       106 |  8.49 |
+| Bonded IOB                  |   17 |     0 |       106 | 16.04 |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
@@ -149,9 +149,9 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| IBUF     |    6 |                  IO |
+| IBUF     |   13 |                  IO |
 | OBUFT    |    5 |                  IO |
-| OBUF     |    3 |                  IO |
+| OBUF     |    4 |                  IO |
 +----------+------+---------------------+
 
 
@@ -174,6 +174,7 @@ Table of Contents
 | design_1_dlmb_bram_if_cntlr_0    |    1 |
 | design_1_clk_wiz_1_0             |    1 |
 | design_1_axi_quad_spi_0_0        |    1 |
+| design_1_axi_gpio_0_0            |    1 |
 | design_1_auto_pc_0               |    1 |
 | design_1_LVDS_Transmitter_0_0    |    1 |
 +----------------------------------+------+

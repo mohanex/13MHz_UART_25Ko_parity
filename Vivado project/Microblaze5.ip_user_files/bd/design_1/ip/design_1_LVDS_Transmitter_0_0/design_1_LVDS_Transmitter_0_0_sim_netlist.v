@@ -1,14 +1,14 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Fri Jul 28 17:26:33 2023
+// Date        : Fri Aug 11 15:13:10 2023
 // Host        : SIREN-801 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim {c:/Users/mafassi/Desktop/13MHz_UART - Copie/Working UART at
-//               13Mhz/Microblaze5/Microblaze5.gen/sources_1/bd/design_1/ip/design_1_LVDS_Transmitter_0_0/design_1_LVDS_Transmitter_0_0_sim_netlist.v}
+// Command     : write_verilog -force -mode funcsim {c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - Copie/Vivado
+//               project/Microblaze5.gen/sources_1/bd/design_1/ip/design_1_LVDS_Transmitter_0_0/design_1_LVDS_Transmitter_0_0_sim_netlist.v}
 // Design      : design_1_LVDS_Transmitter_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
-// Device      : xc7a15tcpg236-1
+// Device      : xc7a35tcpg236-1
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 

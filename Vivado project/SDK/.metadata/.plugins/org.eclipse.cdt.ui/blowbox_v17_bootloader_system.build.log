@@ -1,8 +1,0 @@
-09:45:00 **** Clean-only build of configuration Debug for project blowbox_v17_bootloader_system ****
-make clean 
-rm -rf ./_sds
-rm -rf package
-rm -f system.bif
-
-09:45:00 Build Finished (took 206ms)
-

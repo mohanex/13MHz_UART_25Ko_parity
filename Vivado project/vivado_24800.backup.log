@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Aug 16 11:46:47 2023
+# Process ID: 24800
+# Current directory: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28240 C:\Users\mafassi\Desktop\13MHz_UART_25Ko_parity - export test\Vivado project\Microblaze5.xpr
+# Log file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/vivado.log
+# Journal file: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/ip_repo/LVDS_Buffer'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/ip_repo/uart_axifull_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 1116.684 ; gain = 0.000
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Wed Aug 16 11:47:48 2023] Launched impl_1...
+Run output will be captured here: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs synth_1 -jobs 10
+[Wed Aug 16 11:48:13 2023] Launched synth_1...
+Run output will be captured here: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 10
+[Wed Aug 16 11:49:45 2023] Launched impl_1...
+Run output will be captured here: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+[Wed Aug 16 11:55:06 2023] Launched impl_1...
+Run output will be captured here: C:/Users/mafassi/Desktop/13MHz_UART_25Ko_parity - export test/Vivado project/Microblaze5.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 16 12:03:19 2023...
