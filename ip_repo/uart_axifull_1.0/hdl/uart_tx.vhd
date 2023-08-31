@@ -56,6 +56,7 @@ if (rising_edge(clk)) then
 				state				<= S_DATA;
 				tx_o				<= shreg(0);
 				shreg(16)			<= shreg(0);
+				sig_parity          <= sig_parity xor shreg(0);
 				shreg(15 downto 0)	<= shreg(16 downto 1);
 				clk_baudrate         <= not clk_baudrate;
 				bittimer			<= 0;
@@ -69,7 +70,7 @@ if (rising_edge(clk)) then
 					bitcntr				<= 0;
 					state				<= S_PARITY;
 					--sig_parity          <= din_i(7) xor (din_i(6) xor (din_i(5) xor (din_i(4) xor (din_i(3) xor (din_i(2) xor (din_i(1) xor din_i(0)))))));
-					tx_o				<= sig_parity xor shreg(0);
+					tx_o				<= not (sig_parity xor shreg(0));
 					bittimer			<= 0;
 					clk_baudrate        <= not clk_baudrate;
 				else
@@ -81,7 +82,7 @@ if (rising_edge(clk)) then
 					shreg(15 downto 0)	<= shreg(16 downto 1);					
 					tx_o				<= shreg(0);
 					clk_baudrate         <= not clk_baudrate;
-					--calcul de la parité
+					--calcul de la paritÃ©
 					sig_parity          <= sig_parity xor shreg(0);
 					bitcntr				<= bitcntr + 1;
 					bittimer			<= 0;
